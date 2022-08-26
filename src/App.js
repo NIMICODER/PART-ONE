@@ -9,6 +9,7 @@ import test from './assets/images/test_1.png'
 import chatIcon from './assets/images/chat-icon.png'
 import cart from './assets/images/cart.png'
 import search from './assets/images/search.png'
+import chicken from './assets/images/chicken.png'
 
 function App() {
   const foodItems = [
@@ -93,7 +94,7 @@ function App() {
           </div>
           <div className='circle-wrapper'>
             <div className='circle'>
-              <img src={"/static/media/chicken.c9f61fa39e0b3d194304.png"} alt='meal' />
+              <img src={chicken} alt='meal' />
             </div>
 
             <div className='chat'>
